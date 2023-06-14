@@ -3,8 +3,8 @@ import { createHash } from 'crypto'
 let handler = async function (m, { args, usedPrefix, command }) {
   if (!args[0]) {
     return m.reply(`
-🚫 *Please enter the Serial Number code.*
-Example: *${usedPrefix}${command} 12345678*
+🚫 *Silahkan Masukkan Serial Number*
+Contoh: *${usedPrefix}${command} 12345678*
     `)
   }
 
@@ -13,17 +13,17 @@ Example: *${usedPrefix}${command} 12345678*
 
   if (args[0] !== sn) {
     return m.reply(`
-🚫 *Incorrect Serial Number Code.*
-Please enter the correct code.
-Example: *${usedPrefix}${command} 12345678*
+🚫 *Serial Number Anda Salah.*
+Silahkan Masukkan Serial Number yang benar
+Contoh: *${usedPrefix}${command} dawdafasjd6ad8999*
     `)
   }
 
   user.registered = false
 
   return m.reply(`
-✅ *You managed to unreg.*
-Thank you for using our service.
+✅ *Kamu berhasil unregister*
+Terima Kasih telah menggukan BOT.
   `)
 }
 

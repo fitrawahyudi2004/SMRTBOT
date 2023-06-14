@@ -1,19 +1,9 @@
-import { lyrics, lyricsv2 } from '@bochilteam/scraper'
-
+import fetch from 'node-fetch'
 let handler = async (m, { conn, text, usedPrefix, command }) => {
-    let teks = text ? text : m.quoted && m.quoted.text ? m.quoted.text : ''
-    if (!teks) throw `Use example ${usedPrefix}${command} hallo`
-    const result = await lyricsv2(teks).catch(async _ => await lyrics(teks))
-    m.reply(`
-Lyrics *${result.title}*
-Author ${result.author}
-
-
-${result.lyrics}
-
-
-Url ${result.link}
-`.trim())
+if (!text) throw `${usedPrefix + command} Orang yang sama`
+let res = await fetch (`https://api.zahwazein.xyz/searching/liriklagu?query=${text}&apikey=zenzkey_5ecc47890c`)    
+let json = await res.json()
+conn.sendFile(m.chat, json.result.thumb, null, json.result.lirik, m)
 }
 
 handler.help = ['lirik'].map(v => v + ' <Apa>')

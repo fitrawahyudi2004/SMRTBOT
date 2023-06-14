@@ -58,9 +58,9 @@ mediaType: 1,
 renderLargerThumbnail: true
 }}}, { quoted: m}) 
 }
-handler.help = ['daftar', 'register'].map(v => v + ' <nama>.<umur>')
+handler.help = ['daftar'].map(v => v + ' <nama>.<umur>')
 handler.tags = ['xp']
 
-handler.command = /^(daftar|verify|reg(ister)?)$/i
+handler.command = /^(daftar)$/i
 
 export default handler

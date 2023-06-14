@@ -91,7 +91,7 @@
       "emas": 0,
       "emerald": 0,
       "esteh": 0,
-      "exp": 101,
+      "exp": 164,
       "expg": 0,
       "exphero": 0,
       "expired": 0,
@@ -322,7 +322,7 @@
       "rhinoceroslastfeed": 0,
       "rock": 0,
       "roket": 0,
-      "role": "Newbie ㋡",
+      "role": "Bronze V",
       "roti": 0,
       "rtrofi": "perunggu",
       "rubah": 0,
@@ -519,7 +519,7 @@
       "emas": 0,
       "emerald": 0,
       "esteh": 0,
-      "exp": 134676,
+      "exp": 147771,
       "expg": 0,
       "exphero": 0,
       "expired": 0,
@@ -947,7 +947,7 @@
       "emas": 0,
       "emerald": 0,
       "esteh": 0,
-      "exp": 5890,
+      "exp": 5973,
       "expg": 0,
       "exphero": 0,
       "expired": 0,
@@ -1169,7 +1169,7 @@
       "ramuanphonixlast": 0,
       "ramuanrubahlast": 0,
       "ramuanserigalalast": 0,
-      "registered": true,
+      "registered": false,
       "reglast": 0,
       "regTime": -1,
       "rendang": 0,
@@ -1778,7 +1778,7 @@
       "emas": 0,
       "emerald": 0,
       "esteh": 0,
-      "exp": 87,
+      "exp": 96,
       "expg": 0,
       "exphero": 0,
       "expired": 0,
@@ -3032,7 +3032,7 @@
       "sDemote": "",
       "delete": false,
       "viewonce": false,
-      "simi": false,
+      "simi": true,
       "expired": 0,
       "nsfw": false,
       "premnsfw": false
@@ -3096,7 +3096,7 @@
       "sDemote": "",
       "delete": true,
       "viewonce": false,
-      "simi": false,
+      "simi": true,
       "expired": 0,
       "nsfw": false,
       "premnsfw": false,
@@ -3293,6 +3293,102 @@
       "expired": 0,
       "nsfw": false,
       "premnsfw": false
+    },
+    "status@broadcast": {
+      "isBanned": false,
+      "antiwame": false,
+      "antiLink": false,
+      "antiLinkGc": false,
+      "antiLinkTik": false,
+      "antiLinkTel": false,
+      "antiLinkIg": false,
+      "antiLinkFb": false,
+      "antiLinkHttp": false,
+      "antiLinkYt": false,
+      "antiSpam": false,
+      "antiStiker": false,
+      "antiVirtex": false,
+      "virtex": false,
+      "autoJoin": false,
+      "antiToxic": false,
+      "anticall": false,
+      "welcome": true,
+      "autoread": false,
+      "detect": false,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "viewonce": false,
+      "simi": false,
+      "expired": 0,
+      "nsfw": false,
+      "premnsfw": false
+    },
+    "6285362383158@s.whatsapp.net": {
+      "isBanned": false,
+      "antiwame": false,
+      "antiLink": false,
+      "antiLinkGc": false,
+      "antiLinkTik": false,
+      "antiLinkTel": false,
+      "antiLinkIg": false,
+      "antiLinkFb": false,
+      "antiLinkHttp": false,
+      "antiLinkYt": false,
+      "antiSpam": false,
+      "antiStiker": false,
+      "antiVirtex": false,
+      "virtex": false,
+      "autoJoin": false,
+      "antiToxic": false,
+      "anticall": false,
+      "welcome": true,
+      "autoread": false,
+      "detect": false,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "viewonce": false,
+      "simi": false,
+      "expired": 0,
+      "nsfw": false,
+      "premnsfw": false
+    },
+    "120363158118514729@g.us": {
+      "isBanned": false,
+      "antiwame": false,
+      "antiLink": false,
+      "antiLinkGc": false,
+      "antiLinkTik": false,
+      "antiLinkTel": false,
+      "antiLinkIg": false,
+      "antiLinkFb": false,
+      "antiLinkHttp": false,
+      "antiLinkYt": false,
+      "antiSpam": false,
+      "antiStiker": false,
+      "antiVirtex": false,
+      "virtex": false,
+      "autoJoin": false,
+      "antiToxic": false,
+      "anticall": false,
+      "welcome": true,
+      "autoread": false,
+      "detect": false,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "viewonce": false,
+      "simi": false,
+      "expired": 0,
+      "nsfw": false,
+      "premnsfw": false
     }
   },
   "stats": {
@@ -3327,10 +3423,10 @@
       "lastSuccess": 1686496487074
     },
     "main-pp.js": {
-      "total": 18,
-      "success": 13,
-      "last": 1686489559602,
-      "lastSuccess": 1686489559602
+      "total": 31,
+      "success": 25,
+      "last": 1686666324255,
+      "lastSuccess": 1686666324255
     },
     "main-help.js": {
       "total": 6,
@@ -3363,9 +3459,9 @@
       "lastSuccess": 1686472115254
     },
     "tool-tourl.js": {
-      "total": 3,
+      "total": 11,
       "success": 3,
-      "last": 1686474149905,
+      "last": 1686646665080,
       "lastSuccess": 1686474149905
     },
     "owner-listprem.js": {
@@ -3399,22 +3495,22 @@
       "lastSuccess": 1686472313018
     },
     "enable.js": {
-      "total": 8,
-      "success": 8,
-      "last": 1686494054205,
-      "lastSuccess": 1686494054205
+      "total": 18,
+      "success": 18,
+      "last": 1686669419235,
+      "lastSuccess": 1686669419235
     },
     "info-botinfo.js": {
-      "total": 3,
-      "success": 3,
-      "last": 1686475575189,
-      "lastSuccess": 1686475575189
-    },
-    "exp-ceksn.js": {
       "total": 4,
       "success": 4,
-      "last": 1686479953090,
-      "lastSuccess": 1686479953090
+      "last": 1686658875590,
+      "lastSuccess": 1686658875590
+    },
+    "exp-ceksn.js": {
+      "total": 6,
+      "success": 6,
+      "last": 1686641061313,
+      "lastSuccess": 1686641061313
     },
     "exp-limit.js": {
       "total": 2,
@@ -3429,10 +3525,10 @@
       "lastSuccess": 1686479317310
     },
     "exp-unreg.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1686479252641,
-      "lastSuccess": 1686479252641
+      "total": 4,
+      "success": 4,
+      "last": 1686641183657,
+      "lastSuccess": 1686641183657
     },
     "exp-my.js": {
       "total": 4,
@@ -3501,10 +3597,10 @@
       "lastSuccess": 1686483288013
     },
     "broadcast.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1686483375254,
-      "lastSuccess": 1686483375254
+      "total": 3,
+      "success": 3,
+      "last": 1686645354773,
+      "lastSuccess": 1686645354773
     },
     "rpg-ngewe.js": {
       "total": 2,
@@ -3555,16 +3651,16 @@
       "lastSuccess": 1686486874092
     },
     "game-tebaksurah.js": {
-      "total": 6,
-      "success": 4,
-      "last": 1686487418803,
-      "lastSuccess": 1686487418803
+      "total": 8,
+      "success": 6,
+      "last": 1686642392313,
+      "lastSuccess": 1686642392313
     },
     "game-tebaksurah-hint.js": {
-      "total": 5,
-      "success": 3,
-      "last": 1686487437833,
-      "lastSuccess": 1686487437833
+      "total": 6,
+      "success": 4,
+      "last": 1686642506077,
+      "lastSuccess": 1686642506077
     },
     "game-tekateki-hint.js": {
       "total": 2,
@@ -3603,9 +3699,9 @@
       "lastSuccess": 1686496630592
     },
     "game-tictactoe.js": {
-      "total": 5,
+      "total": 10,
       "success": 2,
-      "last": 1686496152021,
+      "last": 1686644393179,
       "lastSuccess": 1686490674297
     },
     "info-jaringan.js": {
@@ -3657,27 +3753,27 @@
       "lastSuccess": 1686492400656
     },
     "islam-alquran2.js": {
-      "total": 3,
-      "success": 1,
-      "last": 1686492786034,
-      "lastSuccess": 1686492786034
+      "total": 7,
+      "success": 3,
+      "last": 1686643206879,
+      "lastSuccess": 1686643206879
     },
     "islam-alquran.js": {
-      "total": 2,
+      "total": 6,
       "success": 2,
-      "last": 1686492758939,
+      "last": 1686643057264,
       "lastSuccess": 1686492758939
     },
     "tool-blur.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1686493254487,
-      "lastSuccess": 1686493254487
+      "total": 3,
+      "success": 3,
+      "last": 1686646686058,
+      "lastSuccess": 1686646686058
     },
     "tool-jadwaltv.js": {
-      "total": 3,
+      "total": 4,
       "success": 1,
-      "last": 1686493315860,
+      "last": 1686666268184,
       "lastSuccess": 1686493315860
     },
     "Stalker-igstalk2.js": {
@@ -3705,9 +3801,9 @@
       "lastSuccess": 1686493609843
     },
     "group-setppgc.js": {
-      "total": 10,
+      "total": 14,
       "success": 0,
-      "last": 1686495104852,
+      "last": 1686658746298,
       "lastSuccess": 0
     },
     "group-kick.js": {
@@ -3723,9 +3819,9 @@
       "lastSuccess": 1686494484619
     },
     "group-promote.js": {
-      "total": 2,
+      "total": 3,
       "success": 2,
-      "last": 1686494397760,
+      "last": 1686740860880,
       "lastSuccess": 1686494397760
     },
     "group-demote.js": {
@@ -3771,15 +3867,15 @@
       "lastSuccess": 1686495166294
     },
     "main-menu.js": {
-      "total": 7,
-      "success": 7,
-      "last": 1686497972045,
-      "lastSuccess": 1686497972045
+      "total": 18,
+      "success": 16,
+      "last": 1686647738650,
+      "lastSuccess": 1686647738650
     },
     "sticker-jadianime.js": {
-      "total": 4,
+      "total": 5,
       "success": 4,
-      "last": 1686496115049,
+      "last": 1686668114189,
       "lastSuccess": 1686496115049
     },
     "game-war-attack.js": {
@@ -3829,12 +3925,201 @@
       "success": 0,
       "last": 1686498154594,
       "lastSuccess": 0
+    },
+    "exp-daftar2.js": {
+      "total": 5,
+      "success": 2,
+      "last": 1686640357930,
+      "lastSuccess": 1686640357930
+    },
+    "broadcastchats.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1686645305472,
+      "lastSuccess": 1686645305472
+    },
+    "internet-cektagihanlistrik.js": {
+      "total": 4,
+      "success": 1,
+      "last": 1686646900143,
+      "lastSuccess": 1686646900143
+    },
+    "menu-game.js": {
+      "total": 3,
+      "success": 3,
+      "last": 1686659340036,
+      "lastSuccess": 1686659340036
+    },
+    "listmenu.js": {
+      "total": 3,
+      "success": 3,
+      "last": 1686647917488,
+      "lastSuccess": 1686647917488
+    },
+    "menu-advanced.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1686649888216,
+      "lastSuccess": 1686649888216
+    },
+    "simplemenu.js": {
+      "total": 14,
+      "success": 7,
+      "last": 1686742116938,
+      "lastSuccess": 1686742116938
+    },
+    "menu-sound.js": {
+      "total": 5,
+      "success": 2,
+      "last": 1686742137271,
+      "lastSuccess": 1686742137271
+    },
+    "menu-stalker.js": {
+      "total": 2,
+      "success": 0,
+      "last": 1686656701710,
+      "lastSuccess": 0
+    },
+    "sound-Dj.js": {
+      "total": 6,
+      "success": 3,
+      "last": 1686657522175,
+      "lastSuccess": 1686657522175
+    },
+    "tools-whatmusic.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1686658095297,
+      "lastSuccess": 1686658095297
+    },
+    "menu-group.js": {
+      "total": 3,
+      "success": 3,
+      "last": 1686658326772,
+      "lastSuccess": 1686658326772
+    },
+    "group-get-sider.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1686658342636,
+      "lastSuccess": 1686658342636
+    },
+    "xp-profile.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1686658542485,
+      "lastSuccess": 1686658542485
+    },
+    "info-botstats.js": {
+      "total": 6,
+      "success": 4,
+      "last": 1686659262023,
+      "lastSuccess": 1686659262023
+    },
+    "game-tebakgambar.js": {
+      "total": 6,
+      "success": 4,
+      "last": 1686660969573,
+      "lastSuccess": 1686660969573
+    },
+    "game-tebakgambar_hint.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1686660980422,
+      "lastSuccess": 1686660980422
+    },
+    "game-tebakkimia.js": {
+      "total": 3,
+      "success": 3,
+      "last": 1686666529174,
+      "lastSuccess": 1686666529174
+    },
+    "game-tebakkimia_hint.js": {
+      "total": 3,
+      "success": 3,
+      "last": 1686666545950,
+      "lastSuccess": 1686666545950
+    },
+    "internet-lyrics.js": {
+      "total": 5,
+      "success": 5,
+      "last": 1686665612073,
+      "lastSuccess": 1686665612073
+    },
+    "internet-chord.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1686666111724,
+      "lastSuccess": 1686666111724
+    },
+    "internet-jadwaltv.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1686666356662,
+      "lastSuccess": 1686666356662
+    },
+    "islam-sholawat.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1686666465370,
+      "lastSuccess": 1686666465370
+    },
+    "islam-jadwalsholat.js": {
+      "total": 4,
+      "success": 3,
+      "last": 1686666798990,
+      "lastSuccess": 1686666798990
+    },
+    "islam-kisahmuslim.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1686666891062,
+      "lastSuccess": 1686666891062
+    },
+    "tool-qrcode.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1686667219558,
+      "lastSuccess": 1686667219558
+    },
+    "tools-readqr.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1686667362463,
+      "lastSuccess": 1686667362463
+    },
+    "tool-timechat.js": {
+      "total": 3,
+      "success": 1,
+      "last": 1686667604199,
+      "lastSuccess": 1686667604199
+    },
+    "owner-pushkontak.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1686668015248,
+      "lastSuccess": 1686668015248
+    },
+    "islam-hadist.js": {
+      "total": 3,
+      "success": 1,
+      "last": 1686668385517,
+      "lastSuccess": 1686668385517
     }
   },
   "msgs": {},
   "sticker": {},
   "settings": {
     "6283153728993@s.whatsapp.net": {
+      "self": false,
+      "autoread": false,
+      "jadibot": false,
+      "restrict": false,
+      "autorestart": true,
+      "restartDB": 0,
+      "status": 0
+    },
+    "6282180255595@s.whatsapp.net": {
       "self": false,
       "autoread": false,
       "jadibot": false,

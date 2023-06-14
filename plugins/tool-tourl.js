@@ -1,20 +1,19 @@
-import uploadFile from '../lib/uploadFile.js'
-import uploadImage from '../lib/uploadImage.js'
+import uploadFile from '../lib/uploadFile'
+import uploadImage from '../lib/uploadImage'
 
 let handler = async (m) => {
   let q = m.quoted ? m.quoted : m
   let mime = (q.msg || q).mimetype || ''
-  if (!mime) throw 'No media found'
+  if (!mime) throw 'Tidak ada media yang ditemukan'
   let media = await q.download()
   let isTele = /image\/(png|jpe?g|gif)|video\/mp4/.test(mime)
   let link = await (isTele ? uploadImage : uploadFile)(media)
-  m.reply(`📮 *L I N K :*
-${link}
-📊 *S I Z E :* ${media.length} Byte
-📛 *E x p i r e d :* ${isTele ? 'No Expiry Date' : 'Unknown'}`)
+  m.reply(`${link}
+${media.length} Byte(s)
+${isTele ? '(Tidak Ada Tanggal Kedaluwarsa)' : '(Tidak diketahui)'}`)
 }
-handler.help = ['upload (reply media)', 'tourl (reply media)']
-handler.tags = ['tools', 'limitmenu']
-handler.command = /^(tourl|upload)$/i
-handler.limit = true
+handler.help = ['tourl <reply image>']
+handler.tags = ['sticker']
+handler.command = /^(upload|tourl)$/i
+
 export default handler

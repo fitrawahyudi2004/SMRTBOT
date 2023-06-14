@@ -14,13 +14,13 @@ let stiker = await sticker(null, global.API(`https://telegra.ph/file/d34b2ab2cb2
  conn.sendFile(m.chat, stiker, 'sticker.webp', '', m, null, { fileLength: 100, contextInfo: {
           externalAdReply :{
           showAdAttribution: true,
-    mediaUrl: sgc,
+    mediaUrl: sig,
     mediaType: 2,
-    description: 'ZYKO MD', 
+    description: 'FWD', 
     title: `${command} Sedang Di Proses`,
     body: botdate,
     thumbnail: await(await fetch(pp)).buffer(),
-    sourceUrl: sgc
+    sourceUrl: sig
      }}
   })
   
@@ -30,13 +30,13 @@ await conn.sendFile(m.chat, audio, 'error.mp3', null, fkontak, true, {
 type: 'audioMessage', 
 ptt: false, seconds: 0,contextInfo: {
          externalAdReply: { showAdAttribution: true,
- mediaUrl: 'www.instagram.com/zykomd',
+ mediaUrl: sig,
     mediaType: 2, 
-    description: 'www.instagram.com/zykomd',
+    description: 'www.instagram.com/fitra_wahyudi_',
     title: "Now Playing...",
     body: wm,
-    thumbnail: await (await fetch('https://telegra.ph/file/f17621727a115dff52282.jpg')).buffer(),
-    sourceUrl: 'www.instagram.com/zykomd'
+    thumbnail: await(await fetch(pp)).buffer(),
+    sourceUrl: sig
 }
      }
     })

@@ -330,8 +330,8 @@ export async function handler(chatUpdate) {
               if (!isNumber(user.leleb)) user.leleb = 0
               if (!isNumber(user.lelebakar)) user.lelebakar = 0
               if (!isNumber(user.leleg)) user.leleg = 0
-              if (!isNumber(user.level)) user.level = 0
-              if (!isNumber(user.limit)) user.limit = 10
+              if (!isNumber(user.level)) user.level = 1
+              if (!isNumber(user.limit)) user.limit = 20
               if (!isNumber(user.limitjoinfree)) user.limitjoinfree = 1
               if (!isNumber(user.lion)) user.lion = 0
               if (!isNumber(user.lionexp)) user.lionexp = 0
@@ -1453,7 +1453,7 @@ mediaType: 1,
 renderLargerThumbnail: true
 }}}, { quoted: m})
 let msgg = {
-    unreg: `*「 🚩 DAFTAR 」*\n\n📝 Please register to the database first to use this bot further. Use the following command:\n👉 .register yourname.age\n👤 Example: .register fitra.18`
+    unreg: `*「 DAFTAR 」*\n\n📝 Silahkan daftar ke database terlebih dahulu untuk menggunakan bot ini lebih lanjut. Gunakan perintah berikut :\n\n👉 .daftar namamu.umur\n👤 Contoh: .daftar fitra.18\n\nAtau\n\n👉 .verifikasiotp\n👤 Contoh: .verifikasiotp\n\n*Powered By FWD*`
 }[type]
 if (msgg) return conn.sendMessage(m.sender, {
 text: msgg,
@@ -1461,7 +1461,7 @@ contextInfo: {
 externalAdReply: {
 title: v,
 thumbnailUrl: "https://telegra.ph/file/b6a18e707df27c268a42b.jpg",
-sourceUrl: sgc,
+sourceUrl: sig,
 mediaType: 1,
 renderLargerThumbnail: true
 }}}, { quoted: m})

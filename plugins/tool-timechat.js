@@ -1,7 +1,7 @@
 let handler = async (m, { conn, args, usedPrefix, command }) => {
 
-if (!args[0] || !args[1] || !args[2] || !args[3]) throw `.setchattime 6288279268363 2022-04-30 15:30 hola`
-
+if (!args[0] || !args[1] || !args[2] || !args[3]) throw `.setchattime 6288279268363 2022-04-30 15:30 hai guys`
+m.reply("Sukses mengatur pesan terjadwal")
 let obj = { 
 tanggal: `${args[1]}`, 
 jam: `${args[2]}`
@@ -14,8 +14,8 @@ let date2 = +new Date(obj.tanggal + " " + obj.jam)
 let poster = m.sender
 
 setTimeout(() => conn.reply(args[0] + "@s.whatsapp.net", `*TIME CHAT BOT*
-*From:* @${poster.split("@")[0]}
-*Text Content:*
+*Dari:* @${poster.split("@")[0]}
+*Isi pesan:*
 ${args[3]}
 `, m, { contextInfo: { mentionedJid: [poster] }}), date2 - date1)
 

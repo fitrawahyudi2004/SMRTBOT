@@ -325,8 +325,9 @@ setInterval(async () => {
   if (stopped == 'close') return        
   const status = global.db.data.settings[conn.user.jid] || {}
   let _uptime = process.uptime() * 1000    
+  let mode = global.opts["self"] ? "Private : Khusus Owner" : "Publik : Terbuka Untuk Umum"
   let uptime = clockString(_uptime)
-  let bio = `🤖 Bot Aktif : ${uptime} ┃ 👑 BY FITRA WAHYUDI ┃ 🔗 IG FITRA WAHYUDI : https://www.instagram.com/fitra_wahyudi_`
+  let bio = `🤖 Runtime : ${uptime} ┃ 👑 By F.W.D ┃ 🔗 Mode ${mode}`
   await conn.updateProfileStatus(bio).catch(_ => _)
   }, 60000)
   function clockString(ms) {
@@ -334,7 +335,7 @@ setInterval(async () => {
   let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000) % 24
   let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
   let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
-  return [d, ' Hari ', h, ' Jam ', m, ' Menit ', s, ' Seconds '].map(v => v.toString().padStart(2, 0)).join('')}
+  return [d, ' Hari, ', h, ' Jam, ', m, ' Menit, ', s, ' Detik '].map(v => v.toString().padStart(2, 0)).join('')}
 
 /* QuickTest */
 _quickTest()

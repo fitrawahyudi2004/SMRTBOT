@@ -2,7 +2,7 @@ import fetch from 'node-fetch'
 let timeout = 120000
 let poin = 4999
 let handler = async (m, { conn, command, usedPrefix }) => {
-let imgr = flaaa.getRandom()
+    let imgr = `https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text=Tebak Surah`
 
     conn.tebaksurah = conn.tebaksurah ? conn.tebaksurah : {}
     let id = m.chat
@@ -38,7 +38,7 @@ Type: ${json.surah.revelationType}
 `
 
     conn.tebaksurah[id] = [
-        await conn.sendFile(m.chat, `${imgr + command}`, null, caption, m),
+        await conn.sendFile(m.chat, `${imgr}`, null, caption, m),
         json, poin,
         setTimeout(() => {
              if (conn.tebaksurah[id]) conn.reply(m.chat, `Waktu habis!\nJawabannya adalah ${captu}`, conn.tebaksurah[id][0])

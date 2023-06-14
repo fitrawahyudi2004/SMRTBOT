@@ -26,15 +26,9 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
             return !0
         })
 }
-handler.tags = ['main', 'anonymous']
+handler.tags = ['anonymous']
 handler.help = ['menfess'].map(v => v + ' <nomor|nama pengirim|pesan>')
 handler.command = /^(menfess)$/i
 handler.private = true
 
 export default handler
-
-/*
-  * Dann Official
-  * ig: @dannalwaysalone
-  * anjay alok
-*/
